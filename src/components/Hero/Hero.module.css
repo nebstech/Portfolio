@@ -23,12 +23,8 @@
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 13px;
-  font-family: var(--font-roboto);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, 
-  rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  font-family: var(--font-roboto), sans-serif, Arial, Helvetica;
+  color: var(--color-accent); 
 }
 
 .description {
@@ -52,10 +48,7 @@
   width: 50%;
   z-index: 1;
   border-radius: 70%;
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation: floating 3s ease-in-out infinite;
 }
 
 @keyframes floating {
@@ -75,7 +68,6 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -89,7 +81,6 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;

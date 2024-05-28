@@ -5,7 +5,7 @@ import React from 'react';
 
 export const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='about'>
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img src={getImageUrl('about/aboutImage.png')} alt='me sitting using a desktop' className={styles.aboutImage}/>

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Digital Derby",
+    "imagesrc": "projects/project.png",
+    "description": "Digital Derby offers a virtual horse racing experience where users can place bets on their favorite horses. Enjoy the excitement of realistic horse racing events and the thrill of betting, all without any real-world risks.",
+    "skills": ["ReactJS", "Socket.io", "Express"],
+    "demo": "https://digital-derby.netlify.app/",
+    "source": "https://github.com/digitalderby"
+  },
+  {
+    "title": "Chrysalis",
+    "imagesrc": "projects/project.png",
+    "description": "Chrysalis is a dynamic platform linking freelancers with clients. Freelancers can craft detailed profiles, highlight their skills and portfolios, and attract personalized job offers, streamlining the hiring process.",
+    "skills": ["Python", "Django", "TypeScript", "React"],
+    "demo": "https://chrysalis-service-distribution.netlify.app/auth",
+    "source": "https://github.com/Chrysalis-ServiceDistribution"
+  }
+]
