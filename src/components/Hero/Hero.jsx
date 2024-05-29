@@ -5,8 +5,12 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Adonis!</h1>
-        <p className={styles.description}>I'm a junior full stack developer with a passion for creating dynamic and user-friendly web applications. Reach out if you'd like to learn more about my work!</p>
+        <h1 className={styles.title}>Full Stack Developer! 👋</h1>
+        <p className={styles.description}>
+  Hi, I'm Adonis Casado, based in New York. 📍<br />
+  I have a passion for creating dynamic and user-friendly web applications. 💻<br />
+  Reach out if you'd like to learn more about my work! 📬
+</p>
         <a href="mailto:adonis.casado@outlook.com" className={styles.contactBtn}>Contact Me</a>
       </div>
       <img src={getImageUrl('hero/ProfileHolder.png')} alt='hero image of me' className={styles.heroImg} />
