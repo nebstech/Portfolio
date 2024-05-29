@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 70px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -25,6 +25,7 @@
   margin-bottom: 13px;
   font-family: var(--font-roboto), sans-serif, Arial, Helvetica;
   color: var(--color-accent); 
+  align-items: center;
 }
 
 .description {
@@ -45,8 +46,10 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 25%;
   z-index: 1;
+  border: 4px solid black;
+  background-color: white;
   border-radius: 70%;
   animation: floating 3s ease-in-out infinite;
 }
