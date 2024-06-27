@@ -12,7 +12,7 @@
     "imagesrc": "projects/project.png",
     "description": "Chrysalis is a dynamic platform linking freelancers with clients. Freelancers can craft detailed profiles, highlight their skills and portfolios, and attract personalized job offers, streamlining the hiring process.",
     "skills": ["Python", "Django", "TypeScript", "React"],
-    "demo": "https://chrysalis-service-distribution.netlify.app/",
+    "demo": "https://chrysaliss.netlify.app/auth?mode=register",
     "source": "https://github.com/Chrysalis-ServiceDistribution"
   }
 ]
